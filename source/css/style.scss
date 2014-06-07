@@ -21,6 +21,18 @@ body {
   }
 }
 
+.white-theme {
+  background-color: #f0f0f0;
+  color: #222;
+
+  .block {
+    &.flame {
+      background-color: $black;
+    color: $white;
+    }
+  }
+}
+
 .block {
   position: absolute;
   top: 50%;
