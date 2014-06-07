@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+$black: #333;
+$white: #fff;
+
+body {
+  text-align: center;
+  background-color: $black;
+  color: $white;
+}
+
+.white-theme {
+  background-color: #f0f0f0;
+  color: #222;
+
+  .block {
+    &.flame {
+      background-color: $black;
+    color: $white;
+    }
+  }
+}
+
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 48px;
+  padding: 0 20px;
+  margin: -296px 0 0 -420px;
+
+  &.flame {
+    background-color: $white;
+    color: $black;
+    border-radius: 10px;
+  }
+}

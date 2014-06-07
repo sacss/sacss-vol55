@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "~3.7.0",
+    "gulp-watch": "~0.6.5",
+    "gulp-connect": "~2.0.5",
+    "gulp-clean": "~0.3.0",
+    "gulp-compass": "~1.1.9",
+    "gulp-jshint": "~1.6.2",
+    "gulp-open": "~0.2.8",
+    "gulp-image": "~0.3.3"
+  }
+}
